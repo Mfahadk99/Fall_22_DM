@@ -1,2 +1,2 @@
 # Fall_22_DM
-Repo dedicated to Assignments.
+Repo dedicated to Assignments and Project.
