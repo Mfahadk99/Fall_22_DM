@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 1</title>
-</head>
-<body>
-    <section style="text-align: center;">
-        <h1>Assignment 1</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transitive Closure</title>
+  </head>
+  <body>
+    <section style="text-align: center">
+      <h1>Transitive Closure</h1>
     </section>
 
+    <section class="ass-1">
+      <div>
+        Input No.of Vertices:
+        <input type="number" id="nodes" onkeyup="GenerateInputFields(this)" />
+        <br />
+        <br />
+        <p id="note" style="color: red; display: none">
+          Enter 0 or 1 in metrices (If 0 ? leave it blank it will detect 0
+          automatically)
+        </p>
+        <div id="inputDiv"></div>
+      </div>
+      <br />
+      <button onclick="transitiveClosure()">Check</button>
+      <p>Output:</p>
+      <div id="output"></div>
+    </section>
 
     <script src="./transitiveClosure.js"></script>
-</body>
+  </body>
 </html>

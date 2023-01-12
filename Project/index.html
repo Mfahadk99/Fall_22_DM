@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="./ackermann.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section>
+      <h1>DM Project</h1>
+      <br />
+      <br />
+      <table border="1px" style="width: 20%">
+        <tr>
+          <th>Name</th>
+          <th>Id</th>
+        </tr>
+        <tr>
+          <td>M.Fahad</td>
+          <td>11977</td>
+        </tr>
+        <tr>
+          <td>Bilal Ahmed</td>
+          <td>11668</td>
+        </tr>
+        <tr>
+          <td>Samia</td>
+          <td>12438</td>
+        </tr>
+      </table>
+
+      <br />
+      <br />
+      <!-- container for the visualization -->
+      <div class="viz"></div>
+    </section>
+    <div class="center" style="text-align: center;">
+      <h2>RESULTS:</h2>
+      <table id="ans" style="width:50%;margin: auto;">
+        <tr>
+          <td>i</td>
+          <td>x</td>
+          <td>y</td>
+          <td>Avg-Time</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <canvas id="myChart"></canvas>
+    </div>
+  </body>
+</html>
